@@ -1,3 +1,16 @@
+
+// LOCALIZAÇÕES 
+console.log(classes[0][0].firstName); // 'Tomas'
+console.log(classes[0][3].firstName); // 'Lulu'
+console.log(classes[1][4].age); // 22
+
+//MÉTODO FOR PARA LOCALIZAR INFOS (BIDIMENSIONAL)
+for (let i = 0; i < classes.length; i += 1) {
+  for (let j = 0; j < classes[i].length; j += 1) {
+    console.log("oi");
+  }
+};
+
 const classes = [
   [
     { firstName: 'Tomas', lastName: 'Bechtelar', age: 22 },
