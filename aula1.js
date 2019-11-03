@@ -1,3 +1,5 @@
+{ firstName: 'Gerald', lastName: 'O\'Keefe', age: 26 } // A BARRA INVERSA É USADA PARA MOSTRAR PRO PROGRAMA O APÓSTROFE DO NOME E NÃO O FIM DA STRING. CADA LINGUAGEM TEM O SEU TIPO DE LEITURA DA APÓSTROFE. NO JAVASCRIPT É DESTA FORMA 
+
 //ARRAY
 const students = ["Bob", "Susy", "Ted", "Sarah"];
 console.log(students[0]); //Bob
